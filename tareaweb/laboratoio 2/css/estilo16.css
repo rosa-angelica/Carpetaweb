@@ -1,0 +1,80 @@
+/* importar letras de Google: cuando importas letras de Google siempre se pone al inicio */
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Smooch&display=swap');
+
+body{
+    background-color: bisque;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+
+/* llamamos a las letras descargadas de Google */
+.fuente1{
+    font-family: 'Macondo', cursive;
+}
+.fuente2{
+    font-family: 'Smooch', cursive;
+}
+/* agregando estilos al parrafo */
+.fuente3{
+    font-style: italic;
+}
+.fuente4{
+    font-style: oblique;
+}
+.fuente5{
+    font-style: normal;
+}
+.fuente6{
+    font-weight: bold;
+}
+.fuente7{
+    font-weight: bolder;
+}
+.fuente8{
+    font-style: small;
+}
+.fuente9{
+    font-variant: small-caps;
+}
+.fuente10{
+    font-size: 25px;
+}
+.fuente11{
+    font-variant: normal;
+}
+
+/* utilizamos las fuentes descargas */
+@font-face {
+    font-family: "OdibeeSans";
+    src: url("/fonts/OdibeeSans-Regular.ttf");
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("/fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+    font-family: "Batman";
+    src: url("/fonts/BATMAN.ttf");
+}
+@font-face {
+    font-family: "Transformers";
+    src: url("/fonts/Transformers\ Movie.ttf");
+}
+
+/* utilizando las fuentes de internet */
+.fuente12{
+    font-family: "OdibeeSans";
+}
+.fuente13{
+    font-family: "Quicksand";
+}
+.fuente14{
+    font-family: "Batman";
+}
+.fuente15{
+    font-family: "Transformers";
+}
